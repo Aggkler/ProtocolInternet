@@ -9,4 +9,4 @@
 
 ## Тестирование программы 
 при входных данных параметрах(--under 25 --top 2500)
-<img src="java/photo/result.png" alt="Пример" width="500" style="border: 1px solid #ddd;">
+![Пример работы](java/photo/result.png)
