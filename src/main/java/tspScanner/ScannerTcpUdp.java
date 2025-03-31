@@ -1,4 +1,4 @@
-package org.example;
+package tspScanner;
 
 import java.io.IOException;
 import java.net.InetAddress;
