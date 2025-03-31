@@ -32,7 +32,6 @@ public class ScannerTcpUdp {
 
             for (int port = under; port <= top; port++) {
                 try (Socket socket = new Socket()) {
-                    socket.setSoTimeout(1000);
                     socket.connect(new InetSocketAddress(ipAddress, port), 1000);
                     System.out.println("Socket открыт:" + port);
                 } catch (IOException e) {
