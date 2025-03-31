@@ -8,6 +8,10 @@ import java.net.UnknownHostException;
 
 public class ScannerTcpUdp {
     public static void main(String[] args) {
+        /**
+         * Функция позволяет определить открытые порты в заданном диапазоне
+         * --name localhost --under 1 --top 65535 - параметры по умолчанию
+         **/
         String name = "localhost";
         int under = 1;
         int top = 65535;
